@@ -1,13 +1,13 @@
 
 import Hello from './components/Hello'
-import Button from "./Button";
+import Button from "./components/Button";
 
 function App() {
 
   return (
     <>
       <Hello />
-    <Button count={count} />
+      <Button count={count} />
         
     </>
   );
